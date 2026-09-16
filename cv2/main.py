@@ -1,7 +1,7 @@
 from random import random
 
 def get_color():
-    value = random * 100
+    value = random() * 100
     if value <= 3:
         return 2
     elif value <= 51.5:
@@ -35,10 +35,4 @@ def start_game():
 
 if __name__ == "__main__":
     start_game()
-    total_counter = 0
-    color = 0
-    for _ in range(1_000):
-        if get_color() == 2:
-            color = color + 1
-            total(color / total_counter * 100)
     
