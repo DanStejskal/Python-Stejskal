@@ -31,8 +31,7 @@ def time ():
 if __name__ == "__main__":
 
     def money():
-        str_money = input("Zadej pocet penez: ")
-        value = int(str_money)
+        value = int(input("Zadejte pocet penez"))
         x_5000 = value // 5000
         value = value - (x_5000 * 5000)
         x_2000 = value // 2000
@@ -56,6 +55,18 @@ if __name__ == "__main__":
         x_2 = value // 2 
         value - value - (x_10 * 10)
         x_1 = value // 1
+        print(f"{x_5000}x5000")
+        print(f"{x_2000}x2000")
+        print(f"{x_1000}x1000")
+        print(f"{x_500}x500")
+        print(f"{x_200}x200")
+        print(f"{x_100}x100")
+        print(f"{x_50}x50")
+        print(f"{x_20}x0")
+        print(f"{x_10}x10")
+        print(f"{x_5}x5")
+        print(f"{x_2}x2")
+        print(f"{x_1}x1")
        
 
     money()
