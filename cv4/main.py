@@ -35,11 +35,12 @@ def fibbonachi_recursion(number):
     return 1
   return fibbonachi_recursion(number -1) + fibbonachi_recursion (number - 2)
 
-def combination_number():
-  pass
+def combination_number(n, k):
+  return factorial_recursion(n) / (factorial_recursion(n-k) * factorial_recursion(k))
 
-def pascal_triangle():
-  pass
+def pascal_triangle(line_index):
+  for item in range(line_index + 1):
+    print(combination_number(line_index))
 
 if __name__ == "__main__":
    lst = []
