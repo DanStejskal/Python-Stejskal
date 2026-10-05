@@ -19,7 +19,15 @@ def factorial_recursion (number):
     return 1
   return factorial_recursion(number - 1) * number
 
-def fibbonachi():
+def fibbonachi(number):
+  init = 0
+  prev = 1
+
+  for _ in range(number):
+    ans = init + prev
+    prev = init
+    init = ans
+
   
   pass
 
