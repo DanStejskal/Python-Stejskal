@@ -9,6 +9,7 @@ print (len(list))
 for item in lst:
     print(item)
 
+
 if 1 in lst:
     pass
 lst[-1] = 5

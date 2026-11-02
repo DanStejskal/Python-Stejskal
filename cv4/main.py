@@ -42,6 +42,22 @@ def pascal_triangle(line_index):
   for item in range(line_index + 1):
     print(combination_number(line_index))
 
+def ola(): 
+  N = int(input("Zadejte kolik chce zadat cisel"))
+  Numbers = []
+  for i in range (N):
+    Number = int(input(f"Zadej {i + 1}. cislo:"))
+    Numbers.append(number)
+    print (sum(Numbers) / len(Numbers))
+
+def pocet():
+  N = int(input("Zadejte cele kladne cislo: "))    
+  lst = []
+  while N != 0:
+    lst.append(N % 10)
+    N = N // 10
+  print(len(lst))
+
 if __name__ == "__main__":
    lst = []
    number = None
